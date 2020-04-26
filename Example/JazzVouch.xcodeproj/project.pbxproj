@@ -31,7 +31,7 @@
 		03E299BCCCF5AB5DF028B128 /* Pods_JazzVouch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JazzVouch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A6905F1A228AC0250D5B2A /* Pods-JazzVouch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JazzVouch_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JazzVouch_Tests/Pods-JazzVouch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2961E832CE4782613AC3FC42 /* Pods_JazzVouch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JazzVouch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DD5BFFF07FB09EC02C6F3C5 /* JazzVouch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JazzVouch.podspec; path = ../JazzVouch.podspec; sourceTree = "<group>"; };
+		2DD5BFFF07FB09EC02C6F3C5 /* JazzVouch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JazzVouch.podspec; path = ../JazzVouch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5304737C91DCD38E90DE65C3 /* Pods-JazzVouch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JazzVouch_Example.release.xcconfig"; path = "Target Support Files/Pods-JazzVouch_Example/Pods-JazzVouch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55F24FA517B98D6454C2A227 /* Pods-JazzVouch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JazzVouch_Tests.release.xcconfig"; path = "Target Support Files/Pods-JazzVouch_Tests/Pods-JazzVouch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JazzVouch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JazzVouch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACE51AFB9204008FA782 /* JazzVouch_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzVouch_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A85B0633DC0C312B28082C71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AF36DCFC267DD7FDAEC315B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A85B0633DC0C312B28082C71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF36DCFC267DD7FDAEC315B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B0B5A995D3A90DD920B6DDDF /* Pods-JazzVouch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JazzVouch_Example.debug.xcconfig"; path = "Target Support Files/Pods-JazzVouch_Example/Pods-JazzVouch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				09A6905F1A228AC0250D5B2A /* Pods-JazzVouch_Tests.debug.xcconfig */,
 				55F24FA517B98D6454C2A227 /* Pods-JazzVouch_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

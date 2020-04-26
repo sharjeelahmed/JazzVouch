@@ -1,0 +1,6 @@
+framework module JazzVouch {
+  umbrella header "JazzVouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

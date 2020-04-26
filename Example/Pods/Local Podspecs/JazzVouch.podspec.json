@@ -1,0 +1,22 @@
+{
+  "name": "JazzVouch",
+  "version": "0.1.0",
+  "summary": "A short description of JazzVouch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sharjeelahmed/JazzVouch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sharjeelahmed": "sharjeelahmed92@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sharjeelahmed/JazzVouch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JazzVouch/Classes/**/*"
+}

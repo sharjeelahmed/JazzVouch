@@ -1,0 +1,16 @@
+PODS:
+  - JazzVouch (0.1.0)
+
+DEPENDENCIES:
+  - JazzVouch (from `../`)
+
+EXTERNAL SOURCES:
+  JazzVouch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JazzVouch: 0ec159e33fa82e4ec38143b8183c11cc665c247f
+
+PODFILE CHECKSUM: dd3b242a639b096d7044cb7d157bb3cbeed6c588
+
+COCOAPODS: 1.9.0.beta.3
