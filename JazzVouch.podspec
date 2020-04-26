@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.4'
 
-  s.source_files = 'JazzVouch/Classes/**/*'
+  #s.source_files = 'JazzVouch/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'JazzVouch' => ['JazzVouch/Assets/*.png']
@@ -39,5 +40,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Moya' , '~> 13.0.0'
+ # s.dependency 'Moya' , '~> 13.0.0'
 end
