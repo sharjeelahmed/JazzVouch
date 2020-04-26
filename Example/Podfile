@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JazzVouch_Example' do
+  pod 'JazzVouch', :path => '../'
+
+  target 'JazzVouch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
