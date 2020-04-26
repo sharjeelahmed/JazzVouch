@@ -13,8 +13,8 @@
 		2CDEF22BBA638DF3923282A07B0230A7 /* JazzVouch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7591D8393719BD203044061652371E /* JazzVouch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93D4AEC45DBEE4067149E3ABB63FADE4 /* Pods-JazzVouch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C6677B4DA43440BD056412370FEEF0 /* Pods-JazzVouch_Tests-dummy.m */; };
 		95D01295CF1B1E7C510BEC3E243E1125 /* Pods-JazzVouch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3857B1F586A3AF5952B5426558AC6803 /* Pods-JazzVouch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA7B5A8667DAE03D274BE56F261ABB0F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887D5D9B9FB1DA38635D21AD2CCA2F4 /* ReplaceMe.swift */; };
 		C1A4076BEBA219103EDBD9ECC188FC8A /* JazzVouch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F36E183CE7E6ED9B3CF152A8C59C9BA /* JazzVouch-dummy.m */; };
+		DF6C03382455100100941C49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C03372455100100941C49 /* HomeViewController.swift */; };
 		E6DB80E5EA65F28B5AC9412E9C0AC532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F8154AF486FD6E64FAA40EF4C53E739C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,35 +40,35 @@
 		0D013AFFAC3A417A79777DB670B166F6 /* Pods-JazzVouch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JazzVouch_Example-Info.plist"; sourceTree = "<group>"; };
 		10E742CB9439FAAF3B6EC7EA36C08464 /* Pods-JazzVouch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JazzVouch_Example-dummy.m"; sourceTree = "<group>"; };
 		1434D2EB879950DD38994D8520825EC4 /* Pods-JazzVouch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JazzVouch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1887D5D9B9FB1DA38635D21AD2CCA2F4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JazzVouch/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1CDE79B34163818220964EA65A4FD6F4 /* Pods-JazzVouch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JazzVouch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1EF0110067B2F45E1B39EEAE4902A1A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1EF0110067B2F45E1B39EEAE4902A1A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		21BC701A2637DE5F02E170DD05BCDDBD /* Pods-JazzVouch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JazzVouch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		25F219DAD0BE43D3C023E8CB6D70D15B /* JazzVouch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JazzVouch-prefix.pch"; sourceTree = "<group>"; };
-		2B6142776CA8C6A482E6444E5F195D4B /* Pods_JazzVouch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JazzVouch_Example.framework; path = "Pods-JazzVouch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6142776CA8C6A482E6444E5F195D4B /* Pods_JazzVouch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JazzVouch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F36E183CE7E6ED9B3CF152A8C59C9BA /* JazzVouch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JazzVouch-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32CA7F7098390AFCCD67862D6C22F787 /* JazzVouch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JazzVouch-Info.plist"; sourceTree = "<group>"; };
 		3857B1F586A3AF5952B5426558AC6803 /* Pods-JazzVouch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JazzVouch_Example-umbrella.h"; sourceTree = "<group>"; };
-		452BA7FBFB1B3E7FD44A71815C318BD5 /* JazzVouch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JazzVouch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		452BA7FBFB1B3E7FD44A71815C318BD5 /* JazzVouch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JazzVouch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		472C0AEFD832BE87FB2FD10740A8B0A5 /* Pods-JazzVouch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JazzVouch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5232EDD129F37030F3589D8B302C317A /* Pods-JazzVouch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JazzVouch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7090D6D4C5C992DBF8824D6F0EA28A11 /* Pods-JazzVouch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JazzVouch_Tests.modulemap"; sourceTree = "<group>"; };
-		70C8558845A7C7EFD8A16C9DA0AC3DD0 /* JazzVouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JazzVouch.framework; path = JazzVouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C8558845A7C7EFD8A16C9DA0AC3DD0 /* JazzVouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JazzVouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C84D355E9E141E68987DF2C95154A64 /* JazzVouch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JazzVouch.modulemap; sourceTree = "<group>"; };
 		7CCFC99DE2E9EA969C7EF19AF58158C4 /* Pods-JazzVouch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JazzVouch_Tests-umbrella.h"; sourceTree = "<group>"; };
 		80287EEF21045F2E1928C7C04ED338DF /* Pods-JazzVouch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JazzVouch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		843B2C45E97F8A184B568BBC4DAB6209 /* Pods-JazzVouch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JazzVouch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		94C6677B4DA43440BD056412370FEEF0 /* Pods-JazzVouch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JazzVouch_Tests-dummy.m"; sourceTree = "<group>"; };
 		98805ACA885A48BB92604BC59839998B /* JazzVouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JazzVouch.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB28E79BCD2FCFD014712E5386624EDC /* Pods_JazzVouch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JazzVouch_Tests.framework; path = "Pods-JazzVouch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB28E79BCD2FCFD014712E5386624EDC /* Pods_JazzVouch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JazzVouch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4B6F06AAF25CE3A3228684A31ECECF /* Pods-JazzVouch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JazzVouch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0BB061547916CDBC3E4F8D2EA34C488 /* JazzVouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JazzVouch.debug.xcconfig; sourceTree = "<group>"; };
 		B1E9845C4457D3E3FEA801D7F5AA7E02 /* Pods-JazzVouch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JazzVouch_Tests-Info.plist"; sourceTree = "<group>"; };
-		BA3CBFB192356ECB243F60AD0E5605AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA3CBFB192356ECB243F60AD0E5605AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CE92ED8402A00E648AC2E34FFEB1945D /* Pods-JazzVouch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JazzVouch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DE7591D8393719BD203044061652371E /* JazzVouch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JazzVouch-umbrella.h"; sourceTree = "<group>"; };
+		DF6C03372455100100941C49 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F8EC6D4686F84B9D57327F339F3532AE /* Pods-JazzVouch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JazzVouch_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,7 +155,7 @@
 		3D7D43560E27AA661F569E0B61B69158 /* JazzVouch */ = {
 			isa = PBXGroup;
 			children = (
-				1887D5D9B9FB1DA38635D21AD2CCA2F4 /* ReplaceMe.swift */,
+				DF6C033424550F1600941C49 /* Source */,
 				3BA6D613F44F7DAE0047136B01E4911C /* Pod */,
 				2311FA1C7B5EE7980738B1FD02C379B0 /* Support Files */,
 			);
@@ -221,6 +221,14 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6C033424550F1600941C49 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C03372455100100941C49 /* HomeViewController.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					13A3546C26022C5B2BB362F0F71C13BC = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A4076BEBA219103EDBD9ECC188FC8A /* JazzVouch-dummy.m in Sources */,
-				BA7B5A8667DAE03D274BE56F261ABB0F /* ReplaceMe.swift in Sources */,
+				DF6C03382455100100941C49 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98805ACA885A48BB92604BC59839998B /* JazzVouch.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,7 +436,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JazzVouch/JazzVouch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JazzVouch/JazzVouch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JazzVouch/JazzVouch.modulemap";
 				PRODUCT_MODULE_NAME = JazzVouch;
@@ -430,7 +444,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -509,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0BB061547916CDBC3E4F8D2EA34C488 /* JazzVouch.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,7 +536,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JazzVouch/JazzVouch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JazzVouch/JazzVouch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JazzVouch/JazzVouch.modulemap";
 				PRODUCT_MODULE_NAME = JazzVouch;
@@ -529,7 +544,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -622,8 +638,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
